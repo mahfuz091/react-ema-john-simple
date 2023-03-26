@@ -1,17 +1,23 @@
-.header{
-    height: 80px;
-    
-    background: #1C2B35;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-left: 112px;
-    padding-right: 100px;
-    
+@import url("https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@400;600&family=Inter:wght@300;700&family=Lato:wght@300;400;700&display=swap");
 
+.header {
+  height: 80px;
+
+  background: #1c2b35;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 112px;
+  padding-right: 100px;
 }
-.header a{
-    text-decoration: none;
-    color: white;
-    margin-left: 32px;
+.header a {
+  text-decoration: none;
+  color: white;
+  margin-left: 32px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  letter-spacing: 0.005em;
 }

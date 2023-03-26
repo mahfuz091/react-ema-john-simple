@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@400;600&family=Inter:wght@300;700&family=Lato:wght@300;400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+.shop-container {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+}
+.product-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin: 80px;
+}
