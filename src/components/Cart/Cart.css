@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@400;600&family=Inter:wght@300;700&family=Lato:wght@300;400;700&display=swap");
+.cart {
+  background: rgba(255, 153, 0, 0.3);
+
+  padding: 25px;
+  height: 100%;
+}
+.cart-info {
+  position: sticky;
+  top: 10px;
+}
+.cart-info > h5 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 30px;
+  margin-bottom: 50px;
+
+  color: #1c2b35;
+}
+.cart-info > p {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  letter-spacing: 0.005em;
+  margin-bottom: 25px;
+
+  color: #2a414f;
+}
+.cart-info > h6 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 25px;
+  letter-spacing: 0.0015em;
+
+  color: #0e161a;
+}
