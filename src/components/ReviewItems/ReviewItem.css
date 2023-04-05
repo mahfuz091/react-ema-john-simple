@@ -1,0 +1,56 @@
+.review-item {
+  border: 1px solid #95a0a7;
+  border-radius: 8px;
+  margin-bottom: 21px;
+  padding: 8px 25px 8px 8px;
+  display: flex;
+  align-items: center;
+}
+.review-item img {
+  height: 91px;
+  width: 91px;
+  border-radius: 6px;
+}
+.review-info {
+  flex-grow: 1;
+  margin: 0 25px;
+}
+.review-info h6 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 25px;
+  letter-spacing: 0.0015em;
+
+  color: #1c2b35;
+}
+.review-info p {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  /* identical to box height */
+
+  letter-spacing: 0.0025em;
+
+  color: #1c2b35;
+}
+.review-info p span {
+  color: #ff9900;
+}
+.btn-delete {
+  height: 55px;
+  width: 55px;
+  border-radius: 50%;
+  background-color: rgba(235, 87, 87, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.delete-icon {
+  color: #eb5757;
+  font-size: 27px;
+}
