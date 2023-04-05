@@ -2,9 +2,9 @@ import React, { useEffect, useState } from "react";
 import { addToDb, getShoppingCart } from "../../utilities/fakedb";
 import Cart from "../Cart/Cart";
 import Products from "../Product/Products";
-import "./Shop.css";
+import "./Orders.css";
 
-const Shop = () => {
+const Orders = () => {
   const [products, setProducts] = useState([]);
   const [cart, setCart] = useState([]);
   useEffect(() => {
@@ -12,6 +12,7 @@ const Shop = () => {
       .then((res) => res.json())
       .then((data) => setProducts(data));
   }, []);
+
   useEffect(() => {
     const storedCart = getShoppingCart();
     const savedCart = [];
@@ -22,10 +23,11 @@ const Shop = () => {
         addedProduct.quantity = quantity;
         savedCart.push(addedProduct);
       }
-      // console.log(addedProduct);
+
     }
     setCart(savedCart);
   }, [products]);
+
   const handleCart = (product) => {
     const newCart = [...cart, product];
     setCart(newCart);
@@ -49,4 +51,4 @@ const Shop = () => {
   );
 };
 
-export default Shop;
+export default Orders;
